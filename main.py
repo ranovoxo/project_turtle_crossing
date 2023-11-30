@@ -25,7 +25,7 @@ while game_is_on:
     car_manager.move_cars()
 
     for car in car_manager.cars:
-            if car.distance(player) < 25:
+            if car.distance(player) < 20:
                 game_is_on = False
                 scoreboard.game_over()
 
