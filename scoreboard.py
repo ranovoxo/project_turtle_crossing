@@ -10,6 +10,7 @@ class Scoreboard(Turtle):
         self.level = 1
         self.board = Turtle()
         self.board.hideturtle()
+        self.hideturtle()
         self.board.penup()
         self.place_score()
 
@@ -22,9 +23,6 @@ class Scoreboard(Turtle):
         self.score += 5
         self.level += 1
         self.place_score()
-
-
-    
 
     def game_over(self):
         self.goto(0,0)

@@ -33,7 +33,6 @@ while game_is_on:
          player.player_reset()
          scoreboard.update_score()
          
-
 screen.exitonclick() 
 
     
